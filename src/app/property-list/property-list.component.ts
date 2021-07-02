@@ -8,16 +8,19 @@ import { Component, OnInit } from '@angular/core';
 
 
 export class PropertyListComponent implements OnInit {
+properties: Array<any> =[
+  {
+    "id":10,
+    "Rent":15000
+  },
 
+]
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  properties: Array<any> =[
-  {"id":10, "Name":"Birla housing","Type":"2BHK","Rent":15000},
-  {"id":100, "Name":"Ashish housing","Type":"2BHK","Rent":91000}
-]
+
 
 
 }
