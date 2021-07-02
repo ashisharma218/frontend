@@ -13,6 +13,14 @@ properties: Array<any> =[
     "id":10,
     "Rent":15000
   },
+    {
+    "id":100,
+    "Rent":155000
+  },
+    {
+    "id":510,
+    "Rent":150000
+  },
 
 ]
   constructor() { }
